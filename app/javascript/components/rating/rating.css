@@ -1,0 +1,226 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+#review-form{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  width:100%;
+  margin: 0px;
+  /* margin-left: 200px; */
+  /* margin-right: 125px; */
+  box-sizing: border-box;
+  /* border-radius: 25px */
+  font-family: Tahoma, sans-serif;
+
+}
+.reviews-heading{
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.reviews-heading span{
+  font-size: 1.3rem;
+  color: #d0e74d;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.reviews-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  box-sizing: border-box;
+  margin-left: 250px;
+}
+.reviews-box{
+  width:500px;
+  box-shadow: 80px 30px 30px rgba(0,0,0,0.1);
+  background-color: rgb(189, 219, 219);
+  padding: 20px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 25px
+  
+}
+.rev-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  box-sizing: border-box;
+  margin-left: 250px;
+}
+.rev-box{
+  width:450px;
+  box-shadow: 80px 30px 30px rgba(0,0,0,0.1);
+  background-color: rgb(189, 219, 219);
+  padding: 5px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 25px
+  
+}
+.revst-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  box-sizing: border-box;
+  margin-left: 250px;
+  /* border-radius: 25px */
+}
+.revst-box{
+  width:300px;
+  box-shadow: 80px 30px 30px rgba(0,0,0,0.1);
+  background-color: rgb(189, 219, 219);
+  padding: 20px;
+  margin: 8px;
+  margin-left: 250px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 40px
+  
+  
+}
+
+
+.revds-box-container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  box-sizing: border-box;
+  border-radius: 40px
+}
+
+
+.revds-box{
+  width:300px;
+  box-shadow: 8px 30px 30px rgba(0,0,0,0.1);
+  background-color: rgb(234, 241, 243);
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 80px
+  
+}
+.revra-box-conatiner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  /* border-radius: 70px */
+}
+
+.revra-box {
+width: 500px;
+box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+background-color: rgb(189, 219, 219);
+/* padding: 20px; */
+padding-left: 12px;
+margin: 0px;
+cursor: pointer;
+box-sizing: border-box;
+border-radius: 20px
+
+
+}
+ 
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span {
+  color: #979797;
+  font-size: 0.8rem;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p{
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+.reviews-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.rev-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.revst-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width:1060px){
+  .reviews-box{
+      width:45%;
+      padding: 10px;
+  }
+}
+@media(max-width:790px){
+  .reviews-box{
+      width:100%;
+  }
+  .reviews-heading h1{
+      font-size: 1.4rem;
+  }
+}
+@media(max-width:340px){
+  .box-top{
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+  }
+  .reviews{
+      margin-top: 10px;
+  }
+} 
+::selection{
+  color: #ffffff;
+  background-color: #252525;
+}
